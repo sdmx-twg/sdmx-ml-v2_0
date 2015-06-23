@@ -1,11 +1,12 @@
 SDMX-ML Version 2.0
 ====================================
 
-This ZIP file contains SDMX schemas which are designed for general use as part
-of the standard, as well as several sample schemas and XML instances which are
-intended to be illustrative of how SDMX is used.
+Contains XML schemas which are designed for general use as part of the
+standard, as well as several sample schemas and XML instances which are intended
+to be illustrative of how SDMX is used.
 
-All files should be unzipped into a single local directory before use.
+All schema and samples files should be stored in a single local directory before
+use.
 
 The following list explains which files are for general use, and which are
 samples.
