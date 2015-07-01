@@ -15,7 +15,7 @@
   schemaLocation="../../schemas/SDMXUtilityData.xsd"
 />
 
-<xs:import namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" schemaLocation="SDMXCommon.xsd"/>
+<xs:import namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" schemaLocation="../../schemas/SDMXCommon.xsd"/>
 
 
 <xs:element name="DataSet" substitutionGroup="utility:DataSet" type="DataSetType"/>
