@@ -2,7 +2,7 @@ Build tools for the SDMX-ML v2.0 release package
 ================================================
 
 This folder contains tools for maintaining the SDMX-ML v2.0 release package.
-Main tools is a makefile with some supporting files. Run the makefile with the
+Main tool is a makefile with some supporting files. Run the makefile with the
 standard make command:
 
     make
