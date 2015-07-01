@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+
+  <import
+    namespace="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message"
+    schemaLocation="../../schemas/SDMXMessage.xsd"
+  />
+
+  <import
+    namespace="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=BIS:EXT_DEBT:compact"
+    schemaLocation="../../samples/data/BIS_JOINT_DEBT_Compact.xsd"
+  />
+
+  <import
+    namespace="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=BIS:EXT_DEBT:cross"
+    schemaLocation="../../samples/data/BIS_JOINT_DEBT_CrossSectional.xsd"
+  />
+
+  <import
+    namespace="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=BIS:EXT_DEBT:utility"
+    schemaLocation="../../samples/data/BIS_JOINT_DEBT_Utility.xsd"
+  />
+
+  <import
+    namespace="urn:sdmx:org.sdmx.infomodel.metadatastructuredefinition.metadatastructuredefinition=IMF:SDDS:metadatareport"
+    schemaLocation="../../samples/metadata/IMF_CONTACT_MetadataReport.xsd"
+  />
+
+</schema>
