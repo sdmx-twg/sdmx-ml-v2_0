@@ -852,6 +852,7 @@
     <xs:attribute name="conceptAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeRef" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeAgency" type="common:IDType" use="optional"/>
+    <xs:attribute name="conceptSchemeVersion" type="xs:string" use="optional"/>
     <xs:attribute name="representationScheme" type="common:IDType" use="optional"/>
     <xs:attribute name="representationSchemeAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="usageStatus" type="UsageStatusType" use="required"/>
@@ -1126,6 +1127,7 @@
     <xs:attribute name="conceptAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeRef" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeAgency" type="common:IDType" use="optional"/>
+    <xs:attribute name="conceptSchemeVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelist" type="common:IDType" use="optional"/>
     <xs:attribute name="codelistVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelistAgency" type="common:IDType" use="optional"/>
@@ -1153,6 +1155,7 @@
     <xs:attribute name="conceptAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeRef" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeAgency" type="common:IDType" use="optional"/>
+    <xs:attribute name="conceptSchemeVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelist" type="common:IDType" use="optional"/>
     <xs:attribute name="codelistVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelistAgency" type="common:IDType" use="optional"/>
@@ -1236,6 +1239,7 @@
     <xs:attribute name="conceptAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeRef" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeAgency" type="common:IDType" use="optional"/>
+    <xs:attribute name="conceptSchemeVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelist" type="common:IDType" use="optional"/>
     <xs:attribute name="codelistVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelistAgency" type="common:IDType" use="optional"/>
@@ -1304,6 +1308,7 @@
     <xs:attribute name="conceptAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeRef" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeAgency" type="common:IDType" use="optional"/>
+    <xs:attribute name="conceptSchemeVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelist" type="common:IDType" use="optional"/>
     <xs:attribute name="codelistVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelistAgency" type="common:IDType" use="optional"/>
@@ -1321,6 +1326,7 @@
     <xs:attribute name="conceptAgency" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeRef" type="common:IDType" use="optional"/>
     <xs:attribute name="conceptSchemeAgency" type="common:IDType" use="optional"/>
+    <xs:attribute name="conceptSchemeVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelist" type="common:IDType" use="optional"/>
     <xs:attribute name="codelistVersion" type="xs:string" use="optional"/>
     <xs:attribute name="codelistAgency" type="common:IDType" use="optional"/>
