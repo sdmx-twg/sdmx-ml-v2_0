@@ -1080,7 +1080,7 @@
       <xs:element name="Components" type="ComponentsType" minOccurs="0">
         <xs:unique name="SDMX_KeyFamilyComponentUniqueness">
           <xs:selector xpath="structure:TimeDimension|structure:Dimension|structure:Attribute|structure:PrimaryMeasure|structure:CrossSectionalMeasure"/>
-          <xs:field xpath="@concept"/>
+          <xs:field xpath="@conceptRef"/>
         </xs:unique>
         <xs:unique name="SDMX_KeyFamilyGroupUniqueness">
           <xs:selector xpath="structure:Group"/>
